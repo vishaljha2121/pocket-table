@@ -1,0 +1,11 @@
+node_modules/
+data/
+*.log
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+*.sqlite
+*.sqlite-*
+/service.plist

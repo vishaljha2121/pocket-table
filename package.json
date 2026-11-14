@@ -1,0 +1,23 @@
+{
+  "name": "pocket-table",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.ts",
+    "test": "node --test test/*.test.ts",
+    "test:integration": "node test/integration.mjs",
+    "test:exhaustive": "node test/evaluator-exhaustive.mjs",
+    "format": "prettier --write engine.ts server.ts public test scripts README.md package.json"
+  },
+  "dependencies": {
+    "qrcode": "1.5.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.10.1"
+  },
+  "description": "Local Wi-Fi Texas Hold\u2019em companion: physical cards, phone-based chips, a Mac dealer, and private hand odds.",
+  "engines": {
+    "node": ">=26"
+  }
+}
